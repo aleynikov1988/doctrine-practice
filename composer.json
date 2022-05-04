@@ -1,0 +1,22 @@
+{
+    "name": "maxim/doctrine",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^2.12",
+        "doctrine/dbal": "^3.3",
+        "doctrine/annotations": "^1.13",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Maxim Aleynikov",
+            "email": "max.aleyinikov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "":  "src/"
+        }
+    }
+}
